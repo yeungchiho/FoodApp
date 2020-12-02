@@ -1,0 +1,86 @@
+.header{
+	overflow: hidden;
+	background-color: white;
+	height: 45px;
+}
+.header-back::before{
+	content: '\2190';
+	text-decoration: none;
+}
+.header-back{
+	text-decoration: none;
+	color: orange;
+	font-size: 20px;
+	padding-left: 10px;
+	border-top: 20px;
+}
+.header-title{
+	color: #000000;
+	font-size: 25px;
+	padding-left: 95px;
+	padding-top: 5px;
+}
+.banner{
+	height: 20px;
+	width: 100%;
+}
+.register{
+	background-color: white;
+	height: 200px;
+}
+.reg-row{
+	height: 40px;
+}
+.phone{
+	font-size: 20px;
+	padding-left: 10px;
+	float: left;
+	padding-top: 8px;
+}
+.username{
+	font-size: 20px;
+	padding-left: 10px;
+	float: left;
+	padding-top: 8px;
+}
+.name{
+	font-size: 20px;
+	padding-left: 20px;
+	float: left;
+	padding-top: 8px;
+	padding-right: 12px;
+}
+.alipay{
+	font-size: 20px;
+	padding-left: 10px;
+	float: left;
+	padding-top: 8px;
+}
+.password{
+	font-size: 20px;
+	padding-left: 20px;
+	float: left;
+	padding-top: 8px;
+	padding-right: 12px;
+}
+.reg-input{
+	float: left;
+	width: 200px;
+	height: 40px;
+	font-size: 18px;
+	padding-top: 5px;
+	margin-left: 10px;
+}
+.agree{
+	text-align: center;
+	font-size: 15px;
+}
+.reg-btn{
+	padding-left: 30px;
+}
+.btn{
+	width: 315px;
+	height: 40px;
+	background-color: orange;
+	color: white;
+}

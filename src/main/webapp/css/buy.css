@@ -1,0 +1,27 @@
+
+.header{
+    overflow: hidden;
+    background-color: white;
+    height: 45px;
+}
+.header-back::before{
+    content: '\2190';
+    text-decoration: none;
+}
+.header-back{
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+    padding-left: 10px;
+    border-top: 20px;
+}
+.header-title{
+    color: #000000;
+    font-size: 25px;
+    padding-left: 95px;
+    padding-top: 5px;
+}
+.banner{
+    height: 20px;
+    width: 100%;
+}
